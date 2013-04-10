@@ -1,0 +1,16 @@
+NAME="lcms2"
+VERSION=2.4
+RELEASE=1
+CATEGORY="Graphics"
+SUMMARY="Little CMS color management library"
+DESCRIPTION="Little CMS intends to be a small-footprint color management engine,
+with special focus on accuracy and performance. It uses the International Color
+Consortium standard (ICC), which is the modern standard when regarding to color
+management."
+HOMEPAGE="http://www.littlecms.com/"
+SRC_URI="mirror://sourceforge/lcms/${P}.tar.gz"
+
+PKG_NAMES="lcms2 liblcms2_2 liblcms2-devel"
+lcms2_CONTENTS="usr/bin/*.exe usr/share/man/man1/"
+liblcms2_2_CONTENTS="usr/bin/cyglcms2-2.dll usr/share/doc/"
+liblcms2_devel_CONTENTS="usr/include/ usr/lib/"

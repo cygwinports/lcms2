@@ -1,8 +1,0 @@
-category: Graphics
-requires: liblcms2_2 libjpeg-devel libtiff-devel
-external-source: lcms2
-sdesc: "Little CMS color management library (development)"
-ldesc: "Little CMS intends to be a small-footprint color management 
-engine, with special focus on accuracy and performance. It uses the 
-International Color Consortium standard (ICC), which is the modern 
-standard when regarding to color management."
